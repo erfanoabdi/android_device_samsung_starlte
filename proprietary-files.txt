@@ -9,9 +9,11 @@ vendor/lib/libIDDQD_core.so
 vendor/lib/libIDDQD_interface.so
 vendor/lib/libblurdetection.so
 vendor/lib/libblurdetection_interface.so
+vendor/lib/libcnn.so
 vendor/lib/libexynoscamera3.so
 vendor/lib/libfocuspeaking.so
 vendor/lib/libfocuspeaking_interface.so
+vendor/lib/libhfd.so
 vendor/lib/libhifills_interface.so
 vendor/lib/libhwjpeg.so
 vendor/lib/libsensorlistener.so
