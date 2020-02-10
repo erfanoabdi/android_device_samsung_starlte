@@ -5,6 +5,10 @@ lib/libFacialBasedSelfieCorrection.camera.samsung.so
 vendor/etc/snap_gpu_kernel_32.bin
 vendor/etc/snap_gpu_kernel_64.bin
 vendor/lib/hw/camera.exynos9810.so
+vendor/lib/camera.device@1.0-impl.so
+vendor/lib/camera.device@3.2-impl.so
+vendor/lib/camera.device@3.3-impl.so
+vendor/lib/camera.device@3.4-impl.so
 vendor/lib/libIDDQD_core.so
 vendor/lib/libIDDQD_interface.so
 vendor/lib/libblurdetection.so
