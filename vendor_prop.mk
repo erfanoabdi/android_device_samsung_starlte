@@ -14,13 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+# Device specific property overrides
 
-# Inherit common device configuration
-$(call inherit-product, device/samsung/universal9810-common/universal9810-common.mk)
-
-# Property overrides
--include $(LOCAL_PATH)/vendor_prop.mk
-
-# Inherit device vendor
-$(call inherit-product-if-exists, vendor/samsung/starlte/starlte-vendor.mk)
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=560
